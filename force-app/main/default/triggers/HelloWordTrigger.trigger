@@ -8,4 +8,5 @@ trigger HelloWordTrigger on Account (before insert, before update, before delete
     );
     triggerManager.runHandlers();
     //comment for commit
+    //branch-1 small change
 }
